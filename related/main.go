@@ -23,6 +23,8 @@ type MyProfile struct {
 	UserRefer uint
 }
 
+// https://segmentfault.com/a/1190000017263285
+
 func main() {
 	db, err := gorm.Open("mysql", local_db)
 	db.LogMode(true)
